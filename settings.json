@@ -1,0 +1,93 @@
+{
+    // 🔍 Performance / General
+    "window.restoreWindows": "none",
+    "window.zoomLevel": -1,
+    "window.titleBarStyle": "custom", // Better performance than native
+    "window.commandCenter": false,
+    "workbench.editor.restoreViewState": false,
+    "files.restoreUndoStack": false,
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": true,
+
+    // ⚙️ Files / Watchers
+    "files.watcherExclude": {
+        "**/.git": true,
+        "**/.git/**": true,
+        "**/node_modules": true,
+        "**/node_modules/**": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/temp": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/logs": true,
+        "**/log": true,
+        "**/.cache": true,
+        "**/__pycache__": true,
+        "**/.sass-cache": true,
+        "**/.nuxt": true,
+        "**/.next": true,
+        "**/.vercel": true,
+        "**/.svelte-kit": true,
+        "**/.terraform": true,
+        "**/.vagrant": true,
+        "**/coverage": true,
+        "**/cypress/videos": true,
+        "**/cypress/screenshots": true,
+        "**/.yarn": true,
+        "**/.pnp.js": true,
+        "**/*.pyc": true,
+        "**/*.db": true,
+        "**/*.sqlite": true,
+        "**/vendor": true,
+        "**/public": true,
+        "**/assets": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/_MACOSX": true
+    },
+
+    // 🎨 Fonts / Themes
+    "workbench.activityBar.location": "top",
+    "editor.fontFamily": "JetBrains Mono",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Quiet Light",
+
+    // 💻 Editor / UI
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.revealIfOpen": true,
+    "explorer.confirmDelete": true,
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.folding": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.lineNumbers": "on",
+    "editor.guides.indentation": true,
+    "editor.wordWrap": "on",
+    "editor.parameterHints.enabled": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.links": true,
+    "editor.matchBrackets": "always",
+    "editor.inlayHints.enabled": "on",
+
+    // ⌨ Code settings
+    "javascript.updateImportsOnFileMove.enabled": "prompt",
+
+    // 🌐 Telemetry / Privacy
+    "telemetry.telemetryLevel": "error",
+
+    // 💻 Terminal (if not used)
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.explorerKind": "external"
+}
