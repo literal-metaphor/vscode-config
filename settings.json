@@ -54,7 +54,7 @@
     "workbench.activityBar.location": "top",
     "editor.fontFamily": "JetBrains Mono",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Monokai",
 
     // 💻 Editor / UI
     "workbench.statusBar.visible": true,
